@@ -1,0 +1,71 @@
+.user__order {
+  position: relative;
+  height: 260px;
+  width: 700px;
+  border-radius: 15px;
+  margin: -100rpx 25 rpx 0 25 rpx;
+  background: #fff;
+  z-index: 5;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  top: -100px;
+
+  &-my-order {
+    padding: 22px 30px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+
+    &-title {
+      -webkit-flex: 1;
+      flex: 1;
+      font-weight: 500;
+      color: #444;
+      font-size: 26px;
+    }
+
+    &-show-all {
+      font-size: 24px;
+      color: #aaa;
+    }
+  }
+
+  &-order-feature {
+    border-top: 0.1px solid #efefef;
+    padding: 32px 42px 0;
+    background-color: #fff;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+    &-item {
+      position: relative;
+      color: #58595b;
+      font-size: 24px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+
+      image {
+        height: 72px;
+        width: 72px;
+        margin-bottom: 5px;
+      }
+
+      text {
+        color: #444;
+      }
+    }
+  }
+}
