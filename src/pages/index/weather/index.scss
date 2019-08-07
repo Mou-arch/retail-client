@@ -1,0 +1,19 @@
+//@import "~taro-ui/dist/style/components/flex.scss";
+
+.index-weather {
+  align-items: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+  &__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  &__week {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.index-search-banner {
+  position: relative;
+
+  &__search_input {
+    font-size: 20px;
+    height: 20px;
+    padding: 5px 25px;
+    border-radius: 27px;
+    background-color: rgb(247, 249, 251);
+  }
+
+  &__search_icon {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+  }
+}

@@ -1,0 +1,9 @@
+.index-community {
+  color: #fff;
+
+  &__name {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+}
