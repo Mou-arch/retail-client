@@ -1,6 +1,5 @@
 import Taro, {Component} from '@tarojs/taro'
 import {Image, Text, View} from "@tarojs/components";
-import TabBar from '@components/tab-bar';
 import pickUpCode from '@assets/user/pick-up-code.png';
 import avatar from '@assets/user/avatar.jpg';
 import Order from './order/index';

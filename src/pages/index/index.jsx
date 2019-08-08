@@ -1,7 +1,7 @@
 import Taro, {Component} from '@tarojs/taro'
 import {Image, View} from '@tarojs/components'
 import globalBackground from '@assets/index/global-background.jpeg'
-import TabBar from '@components/tabBar';
+// import TabBar from '@components/tabBar';
 import SwiperBanner from './banner/index';
 import SearchBanner from './search-banner/index';
 import Category from './category/index';
@@ -12,9 +12,9 @@ import RecommendTab from './recommend-tab/index';
 import './index.scss'
 
 
-const { TabBarItem } = TabBar
+// const { TabBarItem } = TabBar
 
-console.log(TabBarItem)
+// console.log(TabBarItem)
 export default class Index extends Component {
 
   config = {
