@@ -12,7 +12,7 @@ export default class TabBar extends Component {
   handleClick(value) {
     this.setState({
       current: value
-    })
+    });
 
     if(value === 0){
       Taro.redirectTo({

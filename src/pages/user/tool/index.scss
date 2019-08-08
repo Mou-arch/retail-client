@@ -1,0 +1,33 @@
+.user__tool {
+  position: relative;
+  width: 700px;
+  border-radius: 15px;
+  margin: 20px 25px 0 25px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  top: -100px;
+
+  &-list {
+    width: 100%;
+    border-top: 0.1px solid #efefef;
+    background-color: red;
+
+    &-item {
+      margin-bottom: 20px;
+      position: relative;
+      color: #58595b;
+      font-size: 24px;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+
+      image {
+        height: 72px;
+        width: 72px;
+        margin-bottom: 5px;
+      }
+
+      text {
+        color: #444;
+      }
+    }
+  }
+}
