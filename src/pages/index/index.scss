@@ -1,5 +1,5 @@
 .index-container {
-
+  padding-bottom: 120rpx;
   &__header {
     padding: 100px 25px 0 25px;
     margin-bottom: 20px;
@@ -7,7 +7,7 @@
 
   &__content{
     background: #efefef;
-    margin-bottom: 100px;
+    // margin-bottom: 50px;
   }
 
   &__background {

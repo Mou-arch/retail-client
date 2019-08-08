@@ -1,7 +1,7 @@
 import Taro, {Component} from '@tarojs/taro'
 import {Image, View} from '@tarojs/components'
 import globalBackground from '@assets/index/global-background.jpeg'
-import TabBar from '@components/tab-bar';
+import TabBar from '@components/tabBar';
 import SwiperBanner from './banner/index';
 import SearchBanner from './search-banner/index';
 import Category from './category/index';
@@ -11,6 +11,10 @@ import Community from './community/index';
 import RecommendTab from './recommend-tab/index';
 import './index.scss'
 
+
+const { TabBarItem } = TabBar
+
+console.log(TabBarItem)
 export default class Index extends Component {
 
   config = {
@@ -53,7 +57,23 @@ export default class Index extends Component {
           <RecommendTab />
           <Recommend />
         </View>
-        {/* <TabBar /> */}
+        {/* <TabBar list={[ '全部','直播','会员节','全场优惠' ]}  >
+          <TabBarItem active={0} >
+            <View style={{ backgroundColor : 'pink' , height:'500rpx' }} >
+                hello, word
+            </View>
+          </TabBarItem>
+          <TabBarItem active={1} >
+            <View style={{ backgroundColor : 'green' , height:'500rpx' }} >
+              hello, word
+            </View>
+          </TabBarItem>
+          <TabBarItem active={2} >
+            <View style={{ backgroundColor : 'orange' , height:'500rpx' }} >
+              hello, word
+            </View>
+          </TabBarItem>
+        </TabBar> */}
         <Image className='index-container__background' src={globalBackground} />
       </View>
     )
