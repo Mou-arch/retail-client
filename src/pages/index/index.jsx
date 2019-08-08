@@ -27,6 +27,7 @@ export default class Index extends Component {
   }
 
   componentDidShow() {
+   
   }
 
   componentDidHide() {
@@ -52,7 +53,7 @@ export default class Index extends Component {
           <RecommendTab />
           <Recommend />
         </View>
-        <TabBar />
+        {/* <TabBar /> */}
         <Image className='index-container__background' src={globalBackground} />
       </View>
     )

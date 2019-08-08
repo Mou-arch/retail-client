@@ -2,6 +2,7 @@ import Taro, {Component} from '@tarojs/taro'
 import {View, Image, Text} from "@tarojs/components";
 import defaultProduct from '@assets/default-product.jpg';
 import {AtIcon} from 'taro-ui'
+import './index.scss'
 
 export default class Recommend extends Component {
   static options = {

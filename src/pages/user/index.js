@@ -33,7 +33,7 @@ export default class User extends Component {
         </View>
 
         <Order />
-        <TabBar />
+        {/* <TabBar /> */}
       </View>
     );
   }
