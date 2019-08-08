@@ -7,19 +7,16 @@ export default class TabBar extends Component {
   constructor() {
     super(...arguments);
     this.state = {
-      current: 0,
     }
   }
 
-  handleClick(value) {
-   
+  handleClick(value) {  
     if(value === 0){
       Taro.switchTab({
         url: '/pages/index/index'
       })
      
     }
-
     if(value === 2){
       Taro.switchTab({
         url: '/pages/user/index'
@@ -29,7 +26,6 @@ export default class TabBar extends Component {
   }
 
   render() {
-      console.log(app.globalData.currentBar)
     return (
       <AtTabBar
         fixed
