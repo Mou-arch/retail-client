@@ -3,6 +3,7 @@ import {AtTabBar} from "taro-ui";
 
 const app = Taro.getApp()
 
+
 export default class TabBar extends Component {
   constructor() {
     super(...arguments);
@@ -11,10 +12,6 @@ export default class TabBar extends Component {
   }
 
   handleClick(value) {
-    this.setState({
-      current: value
-    });
-
     if(value === 0){
       Taro.switchTab({
         url: '/pages/index/index'

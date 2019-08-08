@@ -1,4 +1,6 @@
 .index-container {
+  
+  width: 100%;
   padding-bottom: 120rpx;
   &__header {
     padding: 100px 25px 0 25px;
@@ -20,4 +22,14 @@
     right: 0;
     z-index: -1;
   }
+}
+.tabItem{
+  flex: 1;
+  margin-left:0;
+  margin-right:0;
+}
+.tabTop{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
