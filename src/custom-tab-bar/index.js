@@ -1,11 +1,12 @@
 import Taro, {Component} from '@tarojs/taro'
 import {AtTabBar} from "taro-ui";
 
+const app = Taro.getApp()
+
 export default class TabBar extends Component {
   constructor() {
     super(...arguments);
     this.state = {
-      current: 0
     }
   }
 
@@ -15,16 +16,17 @@ export default class TabBar extends Component {
     });
 
     if(value === 0){
-      Taro.redirectTo({
+      Taro.switchTab({
         url: '/pages/index/index'
       })
+     
     }
-
     if(value === 2){
-      Taro.redirectTo({
+      Taro.switchTab({
         url: '/pages/user/index'
       })
     }
+    app.globalData.currentBar = value
   }
 
   render() {
@@ -39,7 +41,7 @@ export default class TabBar extends Component {
           {title: '我的', iconType: 'user'},
         ]}
         onClick={this.handleClick.bind(this)}
-        current={this.state.current}
+        current={app.globalData.currentBar}
       />
     );
   }
