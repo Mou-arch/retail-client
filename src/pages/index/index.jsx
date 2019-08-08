@@ -12,7 +12,6 @@ import RecommendTab from './recommend-tab/index';
 import './index.scss'
 
 
-
 export default class Index extends Component {
 
   config = {

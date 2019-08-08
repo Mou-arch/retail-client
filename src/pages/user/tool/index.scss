@@ -7,17 +7,27 @@
   top: -100px;
 
   &-list {
-    width: 100%;
-    border-top: 0.1px solid #efefef;
-    background-color: red;
 
     &-item {
-      margin-bottom: 20px;
+      margin-top: 10px;
       position: relative;
       color: #58595b;
       font-size: 24px;
       -webkit-flex-direction: column;
       flex-direction: column;
+      justify-content: center;
+      display: flex;
+      -webkit-justify-content: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+
 
       image {
         height: 72px;
