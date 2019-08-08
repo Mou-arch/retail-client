@@ -4,7 +4,7 @@ import TabBar from '@components/tab-bar';
 import pickUpCode from '@assets/user/pick-up-code.png';
 import avatar from '@assets/user/avatar.jpg';
 import Order from './order/index';
-import Tool from  './tool/index';
+import Tool from './tool/index';
 import './index.scss';
 
 export default class User extends Component {
@@ -33,6 +33,7 @@ export default class User extends Component {
         </View>
 
         <Order />
+        <Tool />
         {/* <TabBar /> */}
       </View>
     );

@@ -10,7 +10,11 @@ export default class TabBar extends Component {
     }
   }
 
-  handleClick(value) {  
+  handleClick(value) {
+    this.setState({
+      current: value
+    });
+
     if(value === 0){
       Taro.switchTab({
         url: '/pages/index/index'
