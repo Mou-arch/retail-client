@@ -3,8 +3,8 @@ import {Image, Text, View} from "@tarojs/components";
 // import TabBar from '@components/tab-bar';
 import pickUpCode from '@assets/user/pick-up-code.png';
 import avatar from '@assets/user/avatar.jpg';
-import Order from './order/index';
-import Tool from './tool/index';
+import Order from './order';
+import Tool from './tool';
 import './index.scss';
 
 export default class User extends Component {

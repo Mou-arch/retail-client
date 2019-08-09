@@ -20,7 +20,7 @@ export default class TabBar extends Component {
     }
     if(value === 2){
       Taro.switchTab({
-        url: '/pages/user/index'
+        url: '/pages/user/center/index'
       })
     }
     app.globalData.currentBar = value

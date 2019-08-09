@@ -13,7 +13,8 @@ class App extends Component {
   config = {
     pages: [
       'pages/index/index',
-      'pages/user/index',
+      'pages/user/center/index',
+      'pages/product/detail/index',
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -42,7 +43,7 @@ class App extends Component {
           // selectedIconPath: "./assets/images/menus/tab_customer_pre@3x.png"
         },
         {
-          pagePath: "pages/user/index",
+          pagePath: "pages/user/center/index",
           text: "我的",
           // iconPath: "./assets/images/menus/tab_mine@3x.png",
           // selectedIconPath: "./assets/images/menus/tab_mine_pre@3x.png"
