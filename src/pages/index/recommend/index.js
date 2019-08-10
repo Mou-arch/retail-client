@@ -9,9 +9,16 @@ export default class Recommend extends Component {
     addGlobalClass: true,
   };
 
+  handleProductClick = () => {
+    Taro.navigateTo({
+      url: '/pages/product/detail/index'
+    })
+  };
+
   render() {
+
     return (
-      <View className='index-recommend'>
+      <View className='index-recommend' onClick={this.handleProductClick}>
         <View className='index-recommend__item at-row'>
           <View className='index-recommend__item__image'>
             <Image

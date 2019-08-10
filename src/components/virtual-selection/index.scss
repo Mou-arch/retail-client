@@ -1,0 +1,21 @@
+.virtual-selection {
+  margin-top: 20px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  background: #ffffff;
+
+  &-title {
+    font-size: 26px;
+    color: rgb(160, 160, 160);
+    width: 20%;
+  }
+
+  &-content {
+    width: 70%;
+    word-wrap: break-word;
+  }
+
+  &-more {
+    width: 10%;
+  }
+}

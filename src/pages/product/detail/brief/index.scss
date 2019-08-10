@@ -1,0 +1,48 @@
+.product__detail-brief {
+  background: #fff;
+  padding-bottom: 20px;
+
+  &-title {
+    margin-top: 15px;
+    padding: 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  &-price-with-share {
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+    &-price {
+      font-size: 36px;
+      color: #fe4543;
+      min-height: 48px;
+      line-height: 44px;
+
+      &-original-price {
+        font-size: 24px;
+        text-decoration: line-through;
+        color: gray;
+        margin-left: 15px;
+      }
+    }
+
+    &-share {
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      background: #ededed;
+      font-size: 20px;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+
+      &-text {
+        margin-left: 10px;
+      }
+    }
+  }
+}

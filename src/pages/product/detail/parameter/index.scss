@@ -1,0 +1,42 @@
+.product__detail-parameter {
+  &-title {
+    font-size: 24px;
+  }
+
+  &-layout {
+    background: red;
+
+    &-detail {
+
+      &-title {
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      &-list {
+
+        &-item {
+          padding: 20px;
+          border-bottom: 1px solid rgb(246, 246, 246);
+
+          &-label {
+            font-size: 26px;
+            color: rgb(156, 157, 157);
+          }
+
+          &-content {
+
+          }
+
+        }
+
+      }
+    }
+
+  }
+}
+
+/*.product__detail-parameter-layout-detail .at-float-layout__container {
+  border-radius: 5px;
+  background: red;
+}*/
